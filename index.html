@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f7f5ef">
+  <title>Вольный маршрут — журнал о путешествиях</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            ink: "#18332d",
+            moss: "#315b49",
+            lime: "#d4ef78",
+            paper: "#f7f5ef",
+            clay: "#e9e3d6"
+          },
+          fontFamily: {
+            sans: ["Inter", "ui-sans-serif", "system-ui", "sans-serif"],
+            display: ["Georgia", "serif"]
+          }
+        }
+      }
+    };
+  </script>
+</head>
+<body class="bg-paper text-ink antialiased" data-page="home">
+  <div id="app"></div>
+  <script src="app.js"></script>
+</body>
+</html>
